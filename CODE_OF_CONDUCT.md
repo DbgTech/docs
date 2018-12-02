@@ -1,3 +1,4 @@
+<!--
 # Fuchsia Code of Conduct
 
 Google and the Fuchsia team are committed to preserving and fostering a diverse,
@@ -9,7 +10,19 @@ Simply put, community discussions should be
  * respectful and kind;
  * about Fuchsia;
  * about features and code, not the individuals involved.
+-->
 
+# Fuchsia行为规范
+
+Google和Fuchsia团队有责任保护和培养多样性的，受欢迎的社区。下面是我们社区的行为规范，这些规范应用于我们的仓库和组织，邮件列表，博客内容，IRC频道以及任何其他的Fuchsia支持的通信组，也包括任何在这些空间中发起的私人通信。
+
+简单说，社区讨论应该遵守：
+
+* 尊重和友好
+* 关于Fuchsia
+* 关于功能和代码，不要出现个人相关内容
+
+<!--
 ## Be respectful and constructive.
 
 Treat everyone with respect. Build on each other's ideas. Each of us has the
@@ -19,7 +32,13 @@ Fuchsia is a geographically distributed team and that you may not be
 communicating with someone in their primary language. We all get frustrated
 when working on hard problems, but we cannot allow that frustration to turn
 into personal attacks.
+-->
 
+##尊重他人，具有建设性
+
+要尊重每一个人，开发每一个人的想法。我们每一个人都有权利体验和参与项目，而没有显示的货隐晦的骚扰，歧视，傲慢的恐惧。Fuchsia是一个在地理上分散的团队，并且你可能不会与一些人用他们的母语交流。当遇到困难的问题时，我们会感到沮丧，但是不能够让沮丧变为个人的攻击。
+
+<!--
 ## Speak up if you see or hear something.
 You are empowered to politely engage when you feel that you or others are
 disrespected. The person making you feel uncomfortable may not be aware of what
@@ -39,6 +58,8 @@ unless those individuals instruct us otherwise.
 While all reports will be taken seriously, the Fuchsia community managers may
 not act on complaints that they feel are not violations of this code of
 conduct.
+-->
+
 
 ## We will not tolerate harassment of any kind, including but not limited to:
 
