@@ -1,3 +1,4 @@
+<!--
 Contributing Changes
 ====================
 
@@ -5,6 +6,14 @@ Fuchsia manages commits through Gerrit at
 https://fuchsia-review.googlesource.com. Not all projects accept patches;
 please see the CONTRIBUTING.md document in individual projects for
 details.
+-->
+
+贡献变化
+====================
+
+Fuchsia在`https://fuchsia-review.googlesource.com`通过Gerrit管理提交。并不是所有的工程都接受补丁；请参考单独工程中的`CONTRIBUTING.md`文档获得更多详细的信息。
+
+> 这篇文章不翻译，目前它也不接受外部提交。
 
 ## Submitting changes
 

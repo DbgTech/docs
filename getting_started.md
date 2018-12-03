@@ -1,3 +1,4 @@
+<!--
 # Fuchsia
 
 Pink + Purple == Fuchsia (a new Operating System)
@@ -14,8 +15,21 @@ to work on Zircon only, read and follow Zircon's
 [Getting Started](https://fuchsia.googlesource.com/zircon/+/master/docs/getting_started.md)
 doc.
 ***
+-->
+
+# Fuchsia
+
+粉色 + 紫色 == Fuchsia（一个新的操作系统）
+
+欢迎来到Fuchsia！这篇文档有你开始Fuchsia的所有信息。
+
+*** note
+注意: Fuchsia的源码包括[Zircon](https://fuchsia.googlesource.com/zircon/+/master/README.md)，Zircon是Fuchsia的核心平台。Zircon的编译会作为Fuchsia编译过程的附带产物；如果只想看Zircon，请阅读Zircon的[Getting Started](https://fuchsia.googlesource.com/zircon/+/master/docs/getting_started.md)文档。
+***
 
 [TOC]
+
+<!--
 
 ## Prerequisites
 
@@ -37,12 +51,39 @@ sudo apt-get install build-essential curl git python unzip
 
 1.  In addition to Command Line Tools, you also need to
     install a recent version of [Xcode](https://developer.apple.com/xcode/).
+-->
 
+## 预备知识
+
+### 准备你的编译环境
+
+#### Debian
+
+```
+sudo apt-get install build-essential curl git python unzip
+```
+
+#### macOS
+
+1. 安装命令行工具。
+
+    ```
+    xcode-select --install
+    ```
+2. 除了安装命令行工具，你还需要安装一个最新版本的[Xcode](https://developer.apple.com/xcode/)。
+
+<!--
 ## Get the Source
 
 Follow [the instructions to get the Fuchsia source](/development/source_code/README.md)
 and then return to this document.
+-->
 
+## 获取源码
+
+参照[获取Fuchsia源码的说明](/development/source_code/README.md)获取源码，然后回到这篇文档继续阅读。
+
+<!--
 ## Build Fuchsia
 
 Note: A quick overview of the basic build-and-pave workflow can be found [here](/development/workflows/build_and_pave_quickstart.md).
@@ -80,6 +121,24 @@ fx set x64                 # x64 debug build
 fx set arm64               # arm64 debug build
 fx set x64 --release       # x64 release build
 ```
+-->
+
+## 编译Fuchsia
+
+注: 快速浏览基本的编译流可以参考[这里](/development/workflows/build_and_pave_quickstart.md).
+
+### 编译
+
+如果你已经将`.jiri_root/bin`添加到环境变量作为获取源码的一部分，`fx`命令应该已经在可执行路径了。如果没有，可以使用`scripts/fx`来执行命令。
+
+```
+fx set x64
+fx full-build
+```
+
+第一条命令选择编译配置，即你想要编译和生成编译系统本身所在目录（即`out/debug-x64`）。
+
+第二条命令
 
 #### [optional] Accelerate builds with `ccache` and `goma`
 
