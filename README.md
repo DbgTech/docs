@@ -23,11 +23,11 @@ the system-wide repository and within Individual project repositories.
 
 -->
 
-这个`README.md`是Fuchsia文档的顶层入口点。
+本`README.md`页面是Fuchsia文档的顶层入口点。
 
  - [行为准则](CODE_OF_CONDUCT.md)
  - [术语](glossary.md) - 常用术语的定义
- - [开发](development/README.md) - Fuchsia系统以及其运行程序的编译，运行和测试的说明。
+ - [开发](development/README.md) - Fuchsia系统及其运行程序的编译，运行和测试的说明。
  - [系统](the-book/README.md) - Fuchsia工作原理的文档。
  - [仓库地图](map.md)
  - [贡献变化](CONTRIBUTING.md)
